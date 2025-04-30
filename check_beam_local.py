@@ -40,7 +40,7 @@ def run(pipeline_options):
                 | ReadFromKafka(consumer_config={'bootstrap.servers': "pkc-lgk0v.us-west1.gcp.confluent.cloud:9092",
                                                  "security.protocol": "SASL_SSL",
                                                  "sasl.mechanism": "PLAIN",
-                                                 "sasl.jaas.config": "org.apache.kafka.common.security.plain.PlainLoginModule required username='POOXPGNP77VJ7HAM' password='mVdyY2TzK4xhr9pIiGGg3FngcsjWMMjRsPnI/eUoRGMAFv2iIC+e2heGUgQXGhnD';",
+                                                 "sasl.jaas.config": "org.apache.kafka.common.security.plain.PlainLoginModule required username='POOXPGNP77VJ7HAM' password='<PASSWORD>';",
                                                  'auto.offset.reset': 'latest',
                                                  "session.timeout.ms": "45000",
                                                  'default.api.timeout.ms': '300000',
